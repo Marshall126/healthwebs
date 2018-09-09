@@ -1,0 +1,24 @@
+.back-main{
+  background-image: url("http://www.abc.net.au/radionational/image/7754594-3x2-700x467.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  opacity:0.5;
+  height:500px;
+}
+.main{
+  position:relative;
+  bottom:350px;
+  
+}
+h1{
+  font-family:"montserrat";
+  text-align:center;
+  font-size:3rem;
+  margin-bottom:10px;
+  font-weight:500;
+}
+h2{
+  font-family:"Open Sans";
+  text-align:center;
+  font-size:1.1rem;
+}
