@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Health</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Open+Sans:400,600" rel="stylesheet">
     <link rel="stylesheet" href=./resources/css/style.css>
@@ -19,26 +21,60 @@
     </div>
     <div class="main-cont">
       <div class="nav">
-          <ul>
-            <li>What are antibiotics and superbugs?</li>
-            <li>Agriculture</li>
-            <li>Cleaning progucts</li>
-            <li>Prevention and impact</li>
-            <li>Sources</li>
+          <ul id="navu">
+            <li id="an" data-para="Antibiotics">What are antibiotics and superbugs?</li>
+            <li id="ag" data-para="Agriculture">Agriculture</li>
+            <li id="cl" data-para="Cleaning">Cleaning products</li>
+            <li id="pr" data-para="Prevention">Prevention</li>
+            <li id="sr" data-para="Sources">Sources</li>
           </ul>
         </div>
-        <div class="Antibiotics, Content">
+        <div id = "Antibiotics" class="Content">
           <h3>What are Antibiotics and Superbugs?</h3>
           <p>
-            Antibiotics are pills that are used to fight bacteria, but are <strong>NOT</strong> effective against viral infections, such as the flu. While antibiotics can cure illnesses and save lives, they can cause allergic reactions, impact body balance, and create superbugs.</strong>
+            Antibiotics are pills that are used to fight bacteria, but are <strong>NOT</strong> effective against viral infections, such as the flu. While antibiotics can cure illnesses and save lives, they can cause allergic reactions, impact body balance, and create superbugs.
             Superbugs are bacteria that have become resistant to one or more antibiotics, due to the antibiotics being overused.
             This occurs due to antibiotics only killing most of the harmful bacteria in the body, and not all of it. The surviving bacteria would then reproduce, which would create more bacteria with those same antibiotic resistant genes.
             There are already a sizeable amount of superbugs that exist, a notable one being the bacteria that causes gonorrhea. "98% of gonorrheal bacteria in Southeast Asia are resistant to penicillin" (7).
+            Superbugs can cause healthcare to be more expensive, due to longer hospital visits and the use of more expensive antibiotics being required.
           </p>
         </div>
-        <div class="Agriculture, Content"></div>
-        <div class="Cleaning, Content"></div>
-        <div class="Prevention, Content"></div>
+        <div id = "Agriculture" class="Content">
+          <h3>Agricultures impact on superbugs</h3>
+          <p>
+            Antibiotic use on animals contributes a significant amount to creating superbugs. This is because animals take ludicrous amounts of antibiotics for disease prevention and to stimulate growth; about 80% of all antibiotics used in America.
+            While many superbugs that affect animals are harmless to humans, some of them, such as Cambylobacter, can be deadly. Nearly 30% of Cambylobacter became resistant to the common antibiotic ciprofloxacin, but that number decreased to 13.5 percent just 5 years after it was banned for agricultural use by the FDA.
+          </p>
+        </div>
+        <div id = "Cleaning" class="Content">
+          <h3>Cleaning products' impact on superbugs</h3>
+          <p>
+            Cleaning products can also create superbugs, due to many of them containing antibiotics as well. 
+            One of these antibiotics, Triclosan, is commonly used in many consumer cleaning products, but is also used as a surgical cleaning treatment. Bacteria became so resistant to Triclosan, that the FDA was forced to ban it in hand soaps. 
+            Triclosan was also found to make bacteria 1000x more resistant to other forms of antibiotics when they were used in tandem, since Triclosan only stops the growth of the bacteria, instead of killing it.
+          </p>
+        </div>
+        <div id = "Prevention" class="Content">
+          <h3>How <strong>YOU</strong> can help prevent superbugs</h3>
+          <p>
+            Never use unprescribed antibiotics,
+            Wash hands frequently,
+            Prepare food hygienically,
+            Stay vaccinated to avoid infections,
+            Purchase organic meat,
+            and Always use a full prescription of drugs, even if you no longer feel sick</p>
+        </div>
+        <div id="Sources" class="Content">
+          <h3>Sources</h3>
+            <p>https://uhs.umich.edu/antibiotics</p>
+            <p>https://kidshealth.org/en/parents/antibiotic-overuse.html</p>
+            <p>http://www.who.int/news-room/fact-sheets/detail/antibiotic-resistance</p>
+            <p>https://consumersunion.org/news/the-overuse-of-antibiotics-in-food-animals-threatens-public-health-2/
+              </p>
+            <p>https://www.newscientist.com/article/mg23231045-300-antibacterial-products-may-help-bacteria-beat-antibiotics/</p>
+            <p>https://www.consumerreports.org/cro/2014/03/why-you-should-be-worried-about-antibiotics/index.htm</p>
+            <p>https://evolution.berkeley.edu/evolibrary/article/medicine_03</p>
+        </div>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
